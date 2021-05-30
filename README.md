@@ -1,2 +1,25 @@
-# project11reem
-d
+<head>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+	// $("#t").click(function(){
+ //        $("p").toggle();
+ //    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+<!-- <button id="t">toggle</button> -->
+</body>
